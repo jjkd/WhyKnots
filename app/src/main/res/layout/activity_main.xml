@@ -49,7 +49,7 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginBottom="0dp"
-                    android:background="@drawable/sq"
+                    android:background="@drawable/sq2"
                     android:onClick="invokeButton1"
                     android:padding="0dp"
 
