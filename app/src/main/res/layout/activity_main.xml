@@ -37,70 +37,89 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="vertical">
+                android:layout_margin="0dp"
+                android:padding="0dp">
 
                 <Button
+                    android:id="@+id/button1"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/sq"
                     android:onClick="invokeButton1"
-                    android:text="@string/square_knot" />
+                    android:padding="0dp"
+
+                    />
 
                 <Button
                     android:layout_width="120dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/button1"
+                    android:layout_marginTop="0dp"
                     android:onClick="invokeButton1"
+                    android:padding="0dp"
                     android:text="@string/square_knot"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
 
-            </LinearLayout>
+            </RelativeLayout>
 
-            <LinearLayout
+
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="vertical">
+                android:layout_margin="0dp"
+                android:padding="0dp">
 
                 <Button
+                    android:id="@+id/button2"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:onClick="invokeButton2"
-                    android:text="@string/two_half_hitches" />
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/twohalf"
+                    android:onClick="invokeButton2" />
 
                 <Button
                     android:layout_width="120dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/button2"
+                    android:layout_marginTop="0dp"
                     android:onClick="invokeButton2"
                     android:text="@string/two_half_hitches"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
-            </LinearLayout>
+            </RelativeLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="vertical">
+                android:layout_margin="0dp"
+                android:padding="0dp">
 
                 <Button
+                    android:id="@+id/button3"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
+                    android:layout_marginBottom="0dp"
                     android:onClick="invokeButton3"
-                    android:text="@string/timber_hitch" />
+                    android:background="@drawable/sheet" />
 
                 <Button
                     android:layout_width="120dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/button3"
+                    android:layout_marginTop="0dp"
                     android:onClick="invokeButton3"
-                    android:text="@string/timber_hitch"
-                    android:textSize="10sp" />
+                    android:text="@string/sheet_bend"
+                    android:textSize="12sp" />
 
-            </LinearLayout>
-
+            </RelativeLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -110,71 +129,83 @@
             android:orientation="horizontal">
 
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="vertical">
+                android:layout_margin="0dp"
+                android:padding="0dp">
 
                 <Button
+                    android:id="@+id/button4"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:onClick="invokeButton4"
-                    android:text="@string/bowline" />
+                    android:background="@drawable/b2"
+                    android:onClick="invokeButton4" />
 
                 <Button
                     android:layout_width="120dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/button4"
                     android:onClick="invokeButton4"
                     android:text="@string/bowline"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
-            </LinearLayout>
+            </RelativeLayout>
 
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="vertical">
+                android:layout_margin="0dp"
+                android:padding="0dp">
 
                 <Button
+                    android:id="@+id/button5"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:onClick="invokeButton5"
-                    android:text="@string/taut_line_hitch" />
+                    android:background="@drawable/taut"
+                    android:onClick="invokeButton5" />
 
                 <Button
                     android:layout_width="120dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/button5"
                     android:onClick="invokeButton5"
+
                     android:text="@string/taut_line_hitch"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
-            </LinearLayout>
+            </RelativeLayout>
 
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="vertical">
+                android:layout_margin="0dp"
+                android:padding="0dp">
 
                 <Button
+                    android:id="@+id/button6"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:onClick="invokeButton6"
-                    android:text="@string/clove_hitch" />
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/clove"
+                    android:onClick="invokeButton6" />
 
                 <Button
                     android:layout_width="120dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/button6"
+                    android:layout_marginTop="0dp"
                     android:onClick="invokeButton6"
                     android:text="@string/clove_hitch"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
 
-            </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
