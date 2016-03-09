@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WhyKnots!</string>
+    <string name="button_instructions">Info about knots</string>
+    <string name="square_knot">Square Knot</string>
+    <string name="two_half_hitches">Two Half Hitches</string>
+    <string name="timber_hitch">Timber Hitch</string>
+    <string name="bowline">Bowline</string>
+    <string name="clove_hitch">Clove Hitch</string>
+    <string name="taut_line_hitch">Taut-line Hitch</string>
+</resources>
