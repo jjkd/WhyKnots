@@ -8,6 +8,7 @@
     <string name="clove_hitch">Clove Hitch</string>
     <string name="taut_line_hitch">Taut-line Hitch</string>
     <string name="sheet_bend">Sheet Bend</string>
+
     <string name="square_knot_i">Square Knot</string>
     <string name="two_half_hitches_i">Two Half Hitches</string>
     <string name="timber_hitch_i">Timber Hitch</string>
@@ -15,5 +16,5 @@
     <string name="clove_hitch_i">Clove Hitch</string>
     <string name="taut_line_hitch_i">Taut-line Hitch</string>
     <string name="sheet_bend_i">Sheet Bend</string>
-    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="lorem"><b>Bight:</b> a portion of the rope bent back against itself, but not crossing\n<b>Elbow:</b> a loop with an extra twist, the rope crosses itself twice\n<b>Loop:</b> a portion of the rope that crosses itself\n<b>Standing end:</b> the remaining portion of the rope, does not move in making the knot\n<b>Working end:</b> this is the end that moves in the process of making the knot</string>
 </resources>

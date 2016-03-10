@@ -13,6 +13,6 @@ public class Info extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.info);
-    }
+        setContentView(R.layout.info);          //  all the content is in the XML file,
+    }                                           //  no work to be done here
 }
