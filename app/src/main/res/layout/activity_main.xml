@@ -45,22 +45,21 @@
                 android:padding="0dp">
 
                 <Button
-                    android:id="@+id/button1"
+                    android:id="@+id/buttonsquare"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginBottom="0dp"
                     android:background="@drawable/sq2"
-                    android:onClick="invokeButton1"
-                    android:padding="0dp"
-
-                    />
+                    android:onClick="invokeButtonK"
+                    android:padding="0dp" />
 
                 <Button
+                    android:id="@+id/button1"
                     android:layout_width="120dp"
                     android:layout_height="50dp"
-                    android:layout_below="@id/button1"
+                    android:layout_below="@id/buttonsquare"
                     android:layout_marginTop="0dp"
-                    android:onClick="invokeButton1"
+                    android:onClick="invokeButtonK"
                     android:padding="0dp"
                     android:text="@string/square_knot"
                     android:textSize="12sp" />
@@ -77,19 +76,20 @@
                 android:padding="0dp">
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/buttontwohalf"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginBottom="0dp"
                     android:background="@drawable/twohalf"
-                    android:onClick="invokeButton2" />
+                    android:onClick="invokeButtonK" />
 
                 <Button
+                    android:id="@+id/button2"
                     android:layout_width="120dp"
                     android:layout_height="50dp"
-                    android:layout_below="@id/button2"
+                    android:layout_below="@id/buttontwohalf"
                     android:layout_marginTop="0dp"
-                    android:onClick="invokeButton2"
+                    android:onClick="invokeButtonK"
                     android:text="@string/two_half_hitches"
                     android:textSize="12sp" />
 
@@ -103,19 +103,20 @@
                 android:padding="0dp">
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/buttonsheet"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginBottom="0dp"
-                    android:onClick="invokeButton3"
+                    android:onClick="invokeButtonK"
                     android:background="@drawable/sheet" />
 
                 <Button
+                    android:id="@+id/button3"
                     android:layout_width="120dp"
                     android:layout_height="50dp"
-                    android:layout_below="@id/button3"
+                    android:layout_below="@id/buttonsheet"
                     android:layout_marginTop="0dp"
-                    android:onClick="invokeButton3"
+                    android:onClick="invokeButtonK"
                     android:text="@string/sheet_bend"
                     android:textSize="12sp" />
 
@@ -137,17 +138,18 @@
                 android:padding="0dp">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/buttonbowline"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:background="@drawable/b2"
-                    android:onClick="invokeButton4" />
+                    android:onClick="invokeButtonK" />
 
                 <Button
+                    android:id="@+id/button4"
                     android:layout_width="120dp"
                     android:layout_height="50dp"
-                    android:layout_below="@id/button4"
-                    android:onClick="invokeButton4"
+                    android:layout_below="@id/buttonbowline"
+                    android:onClick="invokeButtonK"
                     android:text="@string/bowline"
                     android:textSize="12sp" />
 
@@ -162,18 +164,18 @@
                 android:padding="0dp">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/buttontaut"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:background="@drawable/taut"
-                    android:onClick="invokeButton5" />
+                    android:onClick="invokeButtonK" />
 
                 <Button
+                    android:id="@+id/button5"
                     android:layout_width="120dp"
                     android:layout_height="50dp"
-                    android:layout_below="@id/button5"
-                    android:onClick="invokeButton5"
-
+                    android:layout_below="@id/buttontaut"
+                    android:onClick="invokeButtonK"
                     android:text="@string/taut_line_hitch"
                     android:textSize="12sp" />
 
@@ -188,19 +190,20 @@
                 android:padding="0dp">
 
                 <Button
-                    android:id="@+id/button6"
+                    android:id="@+id/buttonclove"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginBottom="0dp"
                     android:background="@drawable/clove"
-                    android:onClick="invokeButton6" />
+                    android:onClick="invokeButtonK" />
 
                 <Button
+                    android:id="@+id/button6"
                     android:layout_width="120dp"
                     android:layout_height="50dp"
-                    android:layout_below="@id/button6"
+                    android:layout_below="@id/buttonclove"
                     android:layout_marginTop="0dp"
-                    android:onClick="invokeButton6"
+                    android:onClick="invokeButtonK"
                     android:text="@string/clove_hitch"
                     android:textSize="12sp" />
 

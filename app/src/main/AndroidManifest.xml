@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name="Info" />
+        <activity android:name="Knot" />
     </application>
 
 </manifest>

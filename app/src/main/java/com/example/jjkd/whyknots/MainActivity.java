@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void invokeButtonK(View view) {
+        int button = view.getId();
         Intent intent = new Intent(this, Knot.class);
+        intent.putExtra("knot", button);
         startActivity(intent);
     }
     public void invokeButton1(View view) {
